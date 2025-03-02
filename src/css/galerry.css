@@ -1,0 +1,44 @@
+/* #region resets */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* #endregion resets */
+
+/* #region gallery */
+
+
+.gallery {
+    
+    margin: 0 auto;
+    width: 1128px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    background-color: transparent;
+}
+
+.gallery-item {
+    width: 360px;
+    height: 200px;
+    transition: transform 200ms ease-in-out;
+    
+}
+
+.gallery-item:hover {
+    transform: scale(1.04);
+    
+}
+
+
+
+/* #endregion gallery */
